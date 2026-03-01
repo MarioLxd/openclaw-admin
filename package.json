@@ -1,0 +1,27 @@
+{
+  "name": "openclaw-admin",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia/nuxt": "^0.5.5",
+    "autoprefixer": "^10.4.20",
+    "nuxt": "^3.15.0",
+    "pinia": "^2.2.6",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.0",
+    "@heroicons/vue": "^2.1.0",
+    "lucide-vue-next": "^0.473.0"
+  }
+}
