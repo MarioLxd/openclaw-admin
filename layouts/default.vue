@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import { 
-  LayoutDashboard, 
-  Bot, 
-  MessageSquare, 
-  Brain, 
-  Settings, 
+import {
+  LayoutDashboard,
+  Bot,
+  MessageSquare,
+  Brain,
+  Settings,
   Puzzle,
   Link,
   Server,
   RefreshCw,
   Terminal,
-  Clock
+  Clock,
+  BookOpen,
 } from 'lucide-vue-next'
 
 const route = useRoute()
@@ -18,6 +19,7 @@ const route = useRoute()
 const navigation = [
   { name: '仪表盘', href: '/', icon: LayoutDashboard },
   { name: 'Agent 管理', href: '/agents', icon: Bot },
+  { name: '记忆管理', href: '/memory', icon: BookOpen },
   { name: '模型配置', href: '/models', icon: Brain },
   { name: '渠道配置', href: '/channels', icon: MessageSquare },
   { name: '绑定管理', href: '/bindings', icon: Link },
